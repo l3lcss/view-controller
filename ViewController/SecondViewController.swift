@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  ViewController
 //
 //  Created by Admin on 12/2/2562 BE.
@@ -8,15 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.title = "Menu"
-    }
-    @IBAction func addBtn(_ sender: Any) {
-        print("addBtn")
     }
 }
-
